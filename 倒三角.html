@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        TrianGle(10);
+        function TrianGle(x){
+            document.write("<p align='center'>");
+                // for(var i=0;i<x;i++){
+                //     for(var j=10;j>i;j--){
+                //         document.write("*")
+                //     }
+                //     document.write("<br>");
+                // }
+                for(var i=0;i<x;i++){
+                    for(var j=0;j<x-i;j++){
+                        document.write("*");
+                    }
+                    document.write("<br>");
+                }
+            document.write("</p>");
+
+        }
+    </script>
+</body>
+</html>
